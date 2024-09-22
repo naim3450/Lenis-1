@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenis-1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .grid>div {
+            grid-row: var(--r);
+            grid-column: var(--c);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w-full bg-zinc-900 relative">
+        <div class="grid grid-cols-8 grid-rows-20 gap-2 overflow-x-hidden">
+
+            <div class="w-[200px] h-[180px] elem" style="--r:1; --c:3">
+                <img class="h-[100%] w-[100%]" src="./image/6.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem" style="--r:1; --c:7">
+                <img class="h-[100%] w-[100%]" src="./image/5.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem" style="--r:2; --c:2">
+                <img class="h-[100%] w-[100%]" src="./image/4.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem" style="--r:2; --c:6">
+                <img class="h-[100%] w-[100%]" src="./image/1.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem" style="--r:3; --c:4">
+                <img class="h-[100%] w-[100%]" src="./image/2.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem" style="--r:3; --c:8">
+                <img class="h-[100%] w-[100%]" src="./image/3.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem" style="--r:4; --c:1">
+                <img class="h-[100%] w-[100%]" src="./image/7.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem" style="--r:4; --c:4">
+                <img class="h-[100%] w-[100%]" src="./image/8.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem" style="--r:5; --c:2">
+                <img class="h-[100%] w-[100%]" src="./image/9.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem" style="--r:5; --c:6">
+                <img class="h-[100%] w-[100%]" src="./image/10.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem" style="--r:6; --c:3">
+                <img class="h-[100%] w-[100%]" src="./image/11.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem" style="--r:6; --c:7">
+                <img class="h-[100%] w-[100%]" src="./image/12.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem" style="--r:7; --c:5">
+                <img class="h-[100%] w-[100%]" src="./image/13.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem" style="--r:7; --c:8">
+                <img class="h-[100%] w-[100%]" src="./image/14.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem" style="--r:8; --c:1">
+                <img class="h-[100%] w-[100%]" src="./image/15.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem" style="--r:8; --c:4">
+                <img class="h-[100%] w-[100%]" src="./image/16.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem" style="--r:9; --c:2">
+                <img class="h-[100%] w-[100%]" src="./image/17.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem" style="--r:9; --c:6">
+                <img class="h-[100%] w-[100%]" src="./image/18.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem" style="--r:10; --c:3">
+                <img class="h-[100%] w-[100%]" src="./image/19.jpg" alt="">
+            </div>
+
+            <div class="w-[200px] h-[180px] elem " style="--r:10 --c:7">
+                <img class=" h-[100%] w-[100%]" src="./image/20.jpg" alt="">
+            </div>
+        </div>
+
+        <div
+            class="fixed top-0 left-0 w-full h-screen flex flex-col gap-5 items-center justify-center text-white downScreen">
+            <div class="text-center">
+                <h1 class="text-8xl font-semibold">THOMAS VANCE</h1>
+                <h2 class="text-3xl">歌詞 (かし) おめでとうクリスマス</h2>
+            </div>
+        </div>
+
+
+        <div class="w-full h-screen left-full flex flex-col items-center justify-center bg-white upScreen">
+            <p class="text-black text-4xl w-3/4 text-center font-medium leading-[2.3vw]">
+                Thomas vance is a brand dedicated to creating high-quality,
+                innovative products that enhance your
+                lifestyle. Our commitment to craftsmanship and design ensures that every item we offer is not only
+                functional but also beautifully made.
+            </p>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
